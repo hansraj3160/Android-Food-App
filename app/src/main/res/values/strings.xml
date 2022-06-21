@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="top_icon">TOP ICON</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD?</string>
+    <string name="or">OR</string>
+    <string name="google_icon">google icon</string>
+    <string name="facebook_icon">facebook icon</string>
+    <string name="new_user_register_now">New User? Register Now</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="salad_dis">
+        <item>Romaine lettuce, croutons, and Parmesan tossed with a dressing featuring lemon juice, olive oil, Dijon mustard, Worcestershire sauce, salt, and pepper.</item>
+        <item>Green salad is a general term that can refer to any tossed salad made with greens, such as iceberg lettuce, arugula, and spinach.</item>
+        <item>A Greek salad consists of tomatoes, cucumbers, olives, feta, and onions.</item>
+        <item>Fattoush is a Levantine salad composed of mixed greens and toasted or fried khubz, or flatbread</item>
+        <item>Traditionally, salade niçoise is made with tomatoes, hard-boiled eggs, anchovies or tuna, and Niçoise olives.</item>
+        <item>A Cobb is a hearty salad, so its generally served as an entree instead of a side dish.</item>
+         <item>Romaine lettuce, croutons, and Parmesan tossed with a dressing featuring lemon juice, olive oil, Dijon mustard, Worcestershire sauce, salt, and pepper.</item>
+        <item>Green salad is a general term that can refer to any tossed salad made with greens, such as iceberg lettuce, arugula, and spinach.</item>
+        <item>A Greek salad consists of tomatoes, cucumbers, olives, feta, and onions.</item>
+        <item>Fattoush is a Levantine salad composed of mixed greens and toasted or fried khubz, or flatbread</item>
+        <item>Traditionally, salade niçoise is made with tomatoes, hard-boiled eggs, anchovies or tuna, and Niçoise olives.</item>
+        <item>Romaine lettuce, croutons, and Parmesan tossed with a dressing featuring lemon juice, olive oil, Dijon mustard, Worcestershire sauce, salt, and pepper.</item>
+        <item>Green salad is a general term that can refer to any tossed salad made with greens, such as iceberg lettuce, arugula, and spinach.</item>
+        <item>A Greek salad consists of tomatoes, cucumbers, olives, feta, and onions.</item>
+        <item>Fattoush is a Levantine salad composed of mixed greens and toasted or fried khubz, or flatbread</item>
+    </string-array>
+    <string-array name="drink_desc">
+        <item>Water is the worlds most consumed beverage and is vital to everyones life</item>
+        <item>Because of a rich nutrient profile with essential calcium, this type of drink brings incredible health benefits for customers</item>
+        <item>You can make tea by pouring hot or boiling water over specific categories of leaves</item>
+        <item>Coffee is a popular beverage used worldwide; you can pour water over the roasted coffee beans to make it.</item>
+        <item>Sparkling drinks or the so-called sodas contain carbonated drinks, a sweetener, and a natural or artificial flavoring.</item>
+         <item>Water is the worlds most consumed beverage and is vital to everyones life</item>
+        <item>Because of a rich nutrient profile with essential calcium, this type of drink brings incredible health benefits for customers</item>
+        <item>You can make tea by pouring hot or boiling water over specific categories of leaves</item>
+        <item>Coffee is a popular beverage used worldwide; you can pour water over the roasted coffee beans to make it.</item>
+        <item>Sparkling drinks or the so-called sodas contain carbonated drinks, a sweetener, and a natural or artificial flavoring.</item>
+         <item>Water is the worlds most consumed beverage and is vital to everyones life</item>
+        <item>Because of a rich nutrient profile with essential calcium, this type of drink brings incredible health benefits for customers</item>
+        <item>You can make tea by pouring hot or boiling water over specific categories of leaves</item>
+        <item>Coffee is a popular beverage used worldwide; you can pour water over the roasted coffee beans to make it.</item>
+        <item>Sparkling drinks or the so-called sodas contain carbonated drinks, a sweetener, and a natural or artificial flavoring.</item>
+    </string-array>
+
+    <string-array name="burger_name">
+        <item>Luger Burger</item>
+        <item>Le Pigeon Burger</item>
+        <item>Double Animal Style</item>
+        <item>The Original Burger</item>
+        <item>Whiskey King Burger</item>
+         <item>The Company Burger</item>
+        <item>Chargrilled Burger</item>
+        <item>Dyer’s Deep-Fried Burger</item>
+        <item>The Lola Burger</item>
+        <item>Cheeseburger</item>
+         <item>Raw Steak Tartare Burger</item>
+        <item>The Original Burger</item>
+        <item>Buckhorn Burger</item>
+        <item>Cheeseburger</item>
+        <item>Double Patty</item>
+
+    </string-array>
+    <string-array name="burger_des">
+        <item>It takes a mighty burger for us not to order a steak at Peter Luger Steakhouse, and this is that burger.</item>
+        <item>The grilled Le Pigeon Burger has a nice, smoky flavor that is enhanced with each topping.</item>
+        <item>Order this one off the secret menu that’s not-so-secret at all.</item>
+        <item>Forget all the insane toppings and avant-garde techniques being used elsewhere, this is the way the burger was supposed to be.</item>
+        <item>With dozens of awards under its greasy belt, The Company Burger from the joint of the same name is a must eat if you’re in New Orleans</item>
+        <item>The tanginess of the cheese and the absolutely perfect bun make this, not only one of the best burgers in New York, but one of the best in the whole country.</item>
+        <item>Hovering somewhere between a McDonald’s breakfast sandwich and gourmet hamburger</item>
+          <item>It takes a mighty burger for us not to order a steak at Peter Luger Steakhouse, and this is that burger.</item>
+        <item>The grilled Le Pigeon Burger has a nice, smoky flavor that is enhanced with each topping.</item>
+        <item>Order this one off the secret menu that’s not-so-secret at all.</item>
+        <item>Forget all the insane toppings and avant-garde techniques being used elsewhere, this is the way the burger was supposed to be.</item>
+        <item>With dozens of awards under its greasy belt, The Company Burger from the joint of the same name is a must eat if you’re in New Orleans</item>
+        <item>The tanginess of the cheese and the absolutely perfect bun make this, not only one of the best burgers in New York, but one of the best in the whole country.</item>
+        <item>Hovering somewhere between a McDonald’s breakfast sandwich and gourmet hamburger</item>
+         <item>With dozens of awards under its greasy belt, The Company Burger from the joint of the same name is a must eat if you’re in New Orleans</item>
+
+    </string-array>
+</resources>

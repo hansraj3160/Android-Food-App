@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single"
+        >
+        <item android:id="@+id/socialItems"
+            android:title="Social">
+            <menu>
+                <item android:id="@+id/whatsappItem"
+                    android:title="Whatsapp"
+                    android:icon="@drawable/ic_email"
+                    android:contentDescription="This is whatsapp layout"
+                    app:showAsAction="withText"
+                    app:actionViewClass="android.widget.TextView"
+                    >
+                </item>
+                <item android:id="@+id/telegramItem"
+                    android:title="Telegram"
+                    android:icon="@drawable/ic_baseline_help_outline_24"
+                    app:showAsAction="withText"
+                    >
+                </item>
+                <item android:id="@+id/instagramItem"
+                    android:title="Instagram"
+                    android:icon="@drawable/ic_lock"
+                    android:contentDescription="This is whatsapp layout"
+                    app:showAsAction="withText"
+                    app:actionViewClass="android.widget.TextView"
+                    >
+                </item>
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single"
+        >
+        <item android:id="@+id/googleAppsItems"
+            android:title="Google Apps">
+            <menu>
+                <item android:id="@+id/calanderItem"
+                    android:title="Calander"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:contentDescription="This is whatsapp layout"
+                    app:showAsAction="withText"
+                    >
+                </item>
+                <item android:id="@+id/contactBookItem"
+                    android:title="Contact Book"
+                    android:icon="@drawable/ic_lock"
+                    app:showAsAction="withText"
+                    >
+                </item>
+                <item android:id="@+id/teamItem"
+                    android:title="Team App"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:contentDescription="This is whatsapp layout"
+                    app:showAsAction="withText"
+                    >
+                </item>
+            </menu>
+        </item>
+    </group>
+</menu>

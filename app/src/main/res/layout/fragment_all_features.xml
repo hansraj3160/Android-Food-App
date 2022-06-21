@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".All_features">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_gap"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_weight="4"
+            android:text="Popular"
+            android:textColor="@color/black2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:text="All"
+            android:textColor="@color/black2"
+            android:textSize="20dp" />
+    </LinearLayout>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_gap">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                     android:clickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/orange2"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:layout_width="210dp"
+                        android:layout_height="105dp"
+                        android:onClick="showDetails"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_3"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <info.androidhive.fontawesome.FontTextView
+                        android:layout_width="33dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="right|top"
+                        android:text="@string/fa_heart"
+                        android:textColor="@color/orangeFav"
+                        android:textSize="14dp"
+                        app:solid_icon="false" />
+                    <TextView
+                        android:padding="@dimen/default_gap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/hinttype"
+                        android:textSize="17dp"
+                        android:text="Origen Salad"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteBlack"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:layout_width="210dp"
+                        android:layout_height="105dp"
+                        android:onClick="showDetails"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_4"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <info.androidhive.fontawesome.FontTextView
+                        android:layout_width="33dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="right|top"
+                        android:text="@string/fa_heart_solid"
+                        android:textColor="@color/orangeFav"
+                        android:textSize="14dp"
+                        app:solid_icon="false" />
+                    <TextView
+                        android:padding="@dimen/default_gap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/hinttype"
+                        android:textSize="17dp"
+                        android:text="vegi lover"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteBlack"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                        android:layout_width="210dp"
+                        android:layout_height="105dp"
+                        android:onClick="showDetails"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_1" />
+                        <info.androidhive.fontawesome.FontTextView
+                        android:layout_width="33dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="right|top"
+                        android:text="@string/fa_heart"
+                        android:textColor="@color/orangeFav"
+                        android:textSize="14dp"
+                        app:solid_icon="false" />
+                    <TextView
+                        android:padding="@dimen/default_gap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:text="vegi lover"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteBlack"
+                    app:cardCornerRadius="30dp">
+
+                    <ImageView
+                       android:layout_width="210dp"
+                        android:layout_height="105dp"
+                        android:onClick="showDetails"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_6" />
+                    <info.androidhive.fontawesome.FontTextView
+                        android:layout_width="33dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="right|top"
+                        android:text="@string/fa_heart"
+                        android:textColor="@color/orangeFav"
+                        android:textSize="14dp"
+                        app:solid_icon="false" />
+                    <TextView
+                        android:padding="@dimen/default_gap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:text="Simple Salad"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    app:cardBackgroundColor="@color/whiteBlack"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                    android:layout_width="210dp"
+                        android:layout_height="105dp"
+                        android:onClick="showDetails"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/img_5" />
+                    <info.androidhive.fontawesome.FontTextView
+                        android:layout_width="33dp"
+                        android:layout_height="28dp"
+                        android:layout_gravity="right|top"
+                        android:text="@string/fa_heart"
+                        android:textColor="@color/orangeFav"
+                        android:textSize="14dp"
+                        app:solid_icon="false" />
+                    <TextView
+                        android:padding="@dimen/default_gap"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="17dp"
+                        android:text="Pakistani Salad"/>
+
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:text="Featured"
+        android:textSize="20dp"
+        android:textColor="@color/black2"
+        android:layout_margin="@dimen/default_gap"
+        />
+         <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
